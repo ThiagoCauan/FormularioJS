@@ -1,0 +1,51 @@
+*{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Img/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px
+}
+
+form{
+    display: flex;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+    margin: 0 auto;
+    border-color: #124fde;
+    color: #1c45d9;
+}
+
+label, legend{
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3112de;
+}
+
+input, select, textarea{
+    padding: 3px;
+    border: 1px solid #1c45d9;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7eaef5;
+    color: #2000d6;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #09b0f3
+}
